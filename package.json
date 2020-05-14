@@ -30,7 +30,7 @@
     "cordova-osx"
   ],
   "scripts": {
-    "test": "npm run eslint",
+    "test": "npm run eslint"
   },
   "author": "Apache Software Foundation",
   "license": "Apache-2.0",

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-mycordova" version="0.0.1">
-    <name>Device</name>
-    <description>Cordova Plugin for My Cordova platform</description>
-    <license>Apache 2.0</license>
-    <keywords>cordova,mycordova</keywords>
-    <js-module src="www/mycordova.js" name="mycordova">
-        <clobbers target="mycordova" />
-    </js-module>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-mycordova" version="0.0.1">
+  <name>Device</name>
+  <description>Cordova Plugin for My Cordova platform</description>
+  <license>Apache 2.0</license>
+  <keywords>cordova,mycordova</keywords>
+  <js-module src="www/mycordova.js" name="mycordova">
+    <clobbers target="window.plugins.mycordova" />
+  </js-module>
+  <engines>
+    <engine name="cordova" version=">=1.7.0" />
+    <engine name="cordova-android" version=">=1.8.0" />
+    <engine name="cordova-ios" version=">=1.7.1" />
+  </engines>
 </plugin>
