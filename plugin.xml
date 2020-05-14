@@ -5,7 +5,7 @@
   <license>Apache 2.0</license>
   <keywords>cordova,mycordova</keywords>
   <js-module src="www/mycordova.js" name="mycordova">
-    <clobbers target="window.plugins.mycordova" />
+    <clobbers target="window.MyCordova" />
   </js-module>
   <engines>
     <engine name="cordova" version=">=1.7.0" />
