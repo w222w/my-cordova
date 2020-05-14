@@ -1,0 +1,53 @@
+{
+  "name": "cordova-plugin-mycordova",
+  "version": "0.0.1",
+  "description": "Cordova Mycordova Plugin",
+  "cordova": {
+    "id": "cordova-plugin-mycordova",
+    "platforms": [
+      "android",
+      "ios",
+      "browser",
+      "windows",
+      "osx"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w222w/my-cordova"
+  },
+  "bugs": {
+    "url": "https://github.com/w222w/my-cordova/issues"
+  },
+  "keywords": [
+    "cordova",
+    "camera",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser",
+    "cordova-windows",
+    "cordova-osx"
+  ],
+  "scripts": {
+    "test": "npm run eslint",
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova-android": ">=6.3.0"
+      },
+      "4.1.0": {
+        "cordova-android": ">=6.3.0",
+        "cordova": ">=7.1.0"
+      },
+      "5.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {
+  }
+}

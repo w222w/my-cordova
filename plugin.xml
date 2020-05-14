@@ -4,8 +4,8 @@
     <name>Device</name>
     <description>Cordova Plugin for My Cordova platform</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,device</keywords>
-    <js-module src="www/mycordova.js" name="device">
-        <clobbers target="device" />
+    <keywords>cordova,mycordova</keywords>
+    <js-module src="www/mycordova.js" name="mycordova">
+        <clobbers target="mycordova" />
     </js-module>
 </plugin>
